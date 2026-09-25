@@ -216,11 +216,11 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件专属配置（广告内容直接在此配置）
 			specificConfig: {
 				ad: {
-					title: "支持博主",
+					title: "支持《光芒》",
 					content:
 						"如果您觉得本站内容对您有帮助，欢迎支持我们的创作！您的支持是我们持续更新的动力。",
 					link: {
-						text: "支持一下",
+						text: "支持一下！",
 						url: "about/",
 						external: false,
 					},

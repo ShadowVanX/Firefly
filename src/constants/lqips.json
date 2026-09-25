@@ -1,8 +1,4 @@
 {
-  "src:assets/images/avatar.avif": "dcd8d5d1cecabea9a9",
-  "public:gallery/firefly-2026/cover.avif": "7588a28a8f989e8d88",
-  "public:gallery/firefly-2026/1.avif": "c8bca9dde6d2babfb5",
-  "src:content/posts/guide/cover.avif": "c8bca9dde6d2babfb5",
   "src:content/posts/images/vitepress.avif": "3d3d43e1e1e7ebe0da",
   "src:content/posts/images/right-grid2.avif": "cbcdcddddcd9d8d7db",
   "src:content/posts/images/obsidian.avif": "3a4145dce3e6e8ded8",
@@ -34,5 +30,21 @@
   "public:assets/images/sponsor/wechat.png": "d5d5d5dad9d7dbd8cf",
   "public:assets/images/sponsor/alipay.png": "8ebbde91bedf93c0e0",
   "public:assets/images/ad/ad1.webp": "a1b8b68a8e918c8f93",
-  "src:content/projects/images/firefly.avif": "b5b0b3bcb6bbe0e0df"
+  "src:content/projects/images/firefly.avif": "b5b0b3bcb6bbe0e0df",
+  "src:assets/images/DesktopWallpaper/lumingze.avif": "37436f46528333374d",
+  "src:assets/images/DesktopWallpaper/meiju.avif": "95a7b8a2b2bdbfc2be",
+  "src:assets/images/DesktopWallpaper/longzu1.avif": "e0d5c2f0ebe3cbbfab",
+  "src:assets/images/MobileWallpaper/miku2.avif": "6b6e6e83796e56686e",
+  "src:assets/images/MobileWallpaper/miku1.avif": "8e92a36776908b869b",
+  "src:assets/images/MobileWallpaper/lumingze2.avif": "767373bdb8bb8b8685",
+  "src:assets/images/MobileWallpaper/bocchi.avif": "6573987385a279829f",
+  "src:assets/images/MobileWallpaper/atri.avif": "c8dde4c9dce37797ac",
+  "src:assets/images/avatar.avif": "d8cbc3d6c6bdc9bfb8",
+  "public:assets/images/dynamic/xiaoma.webp": "edeef0d8cbd2f2ecee",
+  "public:assets/images/friends/luzhou.webp": "d7e8d3dbe8dfd5cbc3",
+  "public:assets/images/friends/chengyang.webp": "8b84778f877c807a75",
+  "public:gallery/王航云/cover.avif": "918f8d7f7d79a19e96",
+  "public:gallery/王航云/1.avif": "767373bdb8bb8b8685",
+  "src:content/posts/guide/cover.avif": "918f8d7f7d79a19e96",
+  "src:content/posts/guide/cover-2.avif": "4c50624c51615c4d49"
 }

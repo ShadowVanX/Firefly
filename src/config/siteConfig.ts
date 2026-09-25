@@ -26,13 +26,13 @@ const pages = resolvePageToggles({
 	// 书签导航页面开关
 	booknav: true,
 	// 哔哩哔哩追番页面开关
-	bilibili: false,
+	bilibili: true,
 	// 番组计划页面开关
 	bangumi: false,
 	// VNDB页面开关
-	vndb: false,
+	vndb: true,
 	// MyAnimeList页面开关
-	mal: false,
+	mal: true,
 
 	// ── 关于 (About) ──────────────────────────────────
 
@@ -42,10 +42,10 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "衔尾蛇",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "王航云的秘密基地",
 
 	// 站点 URL
 	site_url: "https://firefly.cuteleaf.cn",
@@ -117,7 +117,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "Firefly Blog",
+		title: "衔尾蛇",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中

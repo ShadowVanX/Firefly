@@ -98,26 +98,26 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 	// 自定义导航栏链接
 	links.push({
-		name: "链接",
+		name: "我的链接",
 		url: "#",
 		icon: "material-symbols:link",
 		// 子菜单
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/ShadowVanX",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				name: "BiliBili",
+				url: "https://b23.tv/R9HW3gw",
 				external: true,
 				icon: "fa7-brands:gitee",
 			},
 			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
+				name: "抖音",
+				url: "https://v.douyin.com/i5tP9wbZiso/ 4@5.com :0pm",
 				external: true,
 				icon: "material-symbols:docs",
 			},
@@ -213,7 +213,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		pageKey: "bilibili",
 	},
 	Bangumi: {
-		name: "番组计划",
+		name: "！？二次元？！",
 		url: "/bangumi/",
 		icon: "material-symbols:movie",
 		pageKey: "bangumi",
@@ -231,7 +231,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		pageKey: "mal",
 	},
 	Sponsor: {
-		name: "打赏",
+		name: "给小王点小钱（打赏）",
 		url: "/sponsor/",
 		icon: "material-symbols:favorite",
 		pageKey: "sponsor",
