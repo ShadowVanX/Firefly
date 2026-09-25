@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "王航云的秘密基地",
 
 	// 站点 URL
-	site_url: "https://firefly-lake.vercel.app",
+	site_url: "https://firefly-4wz.pages.dev",
 
 	// 站点描述
 	description:
