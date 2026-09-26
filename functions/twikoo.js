@@ -1,7 +1,7 @@
-// 将评论请求转发到部署在 Vercel 上的 Twikoo 后端。
-// `*.vercel.app` 在中国大陆被墙，而博客所在的 `*.pages.dev` 国内可达，
-// 因此评论前端的 envId/jsUrl 指向本文件暴露的两个路径，由 Cloudflare 反代。
-const BACKEND = "https://twikoo-khaki-two.vercel.app";
+// 将评论请求转发到部署在 Netlify 上的 Twikoo 后端。
+// 博客所在的 `*.pages.dev` 国内可达，评论前端的 envId/jsUrl 指向本文件
+// 暴露的两个路径，由 Cloudflare 反代到 Netlify 云函数。
+const BACKEND = "https://shadowvanx-twikoo.netlify.app/.netlify/functions/twikoo";
 const CLIENT_JS = "https://fastly.jsdelivr.net/npm/twikoo@1.7.14/dist/twikoo.min.js";
 
 const CORS = {
@@ -31,7 +31,7 @@ export const onRequest = async ({ request }) => {
 	}
 
 	// GET 直达后端健康检查页；POST 转发评论 API 请求
-	const res = await fetch(`${BACKEND}/`, {
+	const res = await fetch(BACKEND, {
 		method: request.method,
 		headers: { "Content-Type": "application/json" },
 		body: request.method === "POST" ? await request.text() : undefined,
