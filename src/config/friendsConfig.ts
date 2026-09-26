@@ -27,7 +27,7 @@ export const friendsConfig: FriendLink[] = [
 		imgurl: "/assets/images/friends/luzhou.webp",
 		desc: "王航云的小马",
 		siteurl: "https://v.douyin.com/kYHgIL-h81U/ 1@5.com :5pm",
-		tags: ["Blog"],
+		tags: ["XiuMe"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
@@ -36,8 +36,17 @@ export const friendsConfig: FriendLink[] = [
 		imgurl: "/assets/images/friends/chengyang.webp",
 		desc: "我们是挚友啊！",
 		siteurl: "https://v.douyin.com/4YHAvmuGnss/ 2@9.com :7pm",
-		tags: ["Docs"],
+		tags: ["达瓦里氏"],
 		weight: 9,
+		enabled: true,
+	},
+	{
+		title: "北华山笙（张队）",
+		imgurl: "/assets/images/friends/beihuashansheng.webp",
+		desc: "张队，你的结辩好碍事啊！（张队先是一愣......)",
+		siteurl: "https://b23.tv/Jh8OQPS",
+		tags: ["二次元针额心、二游老资历"],
+		weight: 8,
 		enabled: true,
 	},
 	{
@@ -46,7 +55,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
 		siteurl: "https://github.com/withastro/astro",
 		tags: ["Framework"],
-		weight: 8,
+		weight: 7,
 		enabled: true,
 	},
 ];
