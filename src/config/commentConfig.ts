@@ -6,16 +6,18 @@ export const commentConfig: CommentConfig = {
 
 	//twikoo评论系统配置
 	twikoo: {
-		envId: "https://twikoo-khaki-two.vercel.app",
+		// 后端经本站 Pages Function 反代（见 functions/twikoo.js），
+		// 因为 *.vercel.app 在大陆被墙；若更换站点域名需同步更新此处
+		envId: "https://shadowvanx.pages.dev/twikoo",
 		// 设置 Twikoo 评论系统语言
 		lang: "zh-CN",
 		// 是否启用文章访问量统计功能
 		visitorCount: true,
 		// Twikoo JS 文件地址，支持 CDN 链接
-		// 中国推荐1: https://registry.npmmirror.com/twikoo/1.7.14/files/dist/twikoo.min.js
-		// 中国推荐2: https://s4.zstatic.net/npm/twikoo@1.7.14/dist/twikoo.min.js
+		// 默认经本站 Pages Function 反代 jsDelivr（见 functions/twikoo.js）
+		// 中国推荐: https://registry.npmmirror.com/twikoo/1.7.14/files/dist/twikoo.min.js
 		// 国际推荐: https://cdn.jsdelivr.net/npm/twikoo@1.7.14/dist/twikoo.min.js
-		jsUrl: "https://registry.npmmirror.com/twikoo/1.7.14/files/dist/twikoo.min.js",
+		jsUrl: "/twikoo.js",
 		// Twikoo 自定义 CSS 文件地址，为空则不加载
 		cssUrl: "/assets/css/twikoo-custom.css",
 	},
