@@ -14,9 +14,7 @@ export const commentConfig: CommentConfig = {
 		// 是否启用文章访问量统计功能
 		visitorCount: true,
 		// Twikoo JS 文件地址，支持 CDN 链接
-		// 默认经本站 Pages Function 反代 jsDelivr（见 functions/twikoo.js）
-		// 中国推荐: https://registry.npmmirror.com/twikoo/1.7.14/files/dist/twikoo.min.js
-		// 国际推荐: https://cdn.jsdelivr.net/npm/twikoo@1.7.14/dist/twikoo.min.js
+		// 本站自托管静态文件 public/twikoo.js（twikoo@1.7.14）
 		jsUrl: "/twikoo.js",
 		// Twikoo 自定义 CSS 文件地址，为空则不加载
 		cssUrl: "/assets/css/twikoo-custom.css",

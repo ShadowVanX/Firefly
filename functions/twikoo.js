@@ -1,8 +1,7 @@
 // 将评论请求转发到部署在 Netlify 上的 Twikoo 后端。
-// 博客所在的 `*.pages.dev` 国内可达，评论前端的 envId/jsUrl 指向本文件
-// 暴露的两个路径，由 Cloudflare 反代到 Netlify 云函数。
+// 博客所在的 `*.pages.dev` 国内可达，评论前端的 envId 指向 /twikoo，
+// 由 Cloudflare 反代到 Netlify 云函数；客户端脚本为静态文件 public/twikoo.js。
 const BACKEND = "https://shadowvanx-twikoo.netlify.app/.netlify/functions/twikoo";
-const CLIENT_JS = "https://fastly.jsdelivr.net/npm/twikoo@1.7.14/dist/twikoo.min.js";
 
 const CORS = {
 	"Access-Control-Allow-Origin": "*",
@@ -13,14 +12,6 @@ const CORS = {
 export const onRequest = async ({ request }) => {
 	if (request.method === "OPTIONS") {
 		return new Response(null, { status: 204, headers: CORS });
-	}
-
-	// 评论前端脚本：从 jsDelivr 拉取并交给边缘缓存，国内访客直接从本站加载
-	if (new URL(request.url).pathname === "/twikoo.js") {
-		const js = await fetch(CLIENT_JS);
-		const headers = new Headers(js.headers);
-		headers.set("Cache-Control", "public, max-age=86400");
-		return new Response(js.body, { status: js.status, headers });
 	}
 
 	if (request.method !== "POST" && request.method !== "GET") {
