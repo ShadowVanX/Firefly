@@ -39,11 +39,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		desktop: [
 			"assets/images/DesktopWallpaper/lumingze.avif",
-			"assets/images/DesktopWallpaper/longzu1.avif",
-			"assets/images/DesktopWallpaper/img-143955.avif",
-			"assets/images/DesktopWallpaper/img-144041.avif",
-			"assets/images/DesktopWallpaper/img-144123.avif",
-			"assets/images/DesktopWallpaper/img-144216.avif",
+			"assets/images/DesktopWallpaper/img-150701.avif",
+			"assets/images/DesktopWallpaper/img-150718.avif",
+			"assets/images/DesktopWallpaper/img-150733.avif",
 		],
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
