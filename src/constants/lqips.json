@@ -32,7 +32,6 @@
   "public:assets/images/ad/ad1.webp": "a1b8b68a8e918c8f93",
   "src:content/projects/images/firefly.avif": "b5b0b3bcb6bbe0e0df",
   "src:assets/images/DesktopWallpaper/lumingze.avif": "37436f46528333374d",
-  "src:assets/images/DesktopWallpaper/meiju.avif": "95a7b8a2b2bdbfc2be",
   "src:assets/images/DesktopWallpaper/longzu1.avif": "e0d5c2f0ebe3cbbfab",
   "src:assets/images/MobileWallpaper/miku2.avif": "6b6e6e83796e56686e",
   "src:assets/images/MobileWallpaper/miku1.avif": "8e92a36776908b869b",
@@ -48,13 +47,13 @@
   "src:content/posts/guide/cover.avif": "918f8d7f7d79a19e96",
   "src:content/posts/guide/cover-2.avif": "4c50624c51615c4d49",
   "src:content/posts/guide/cover-3.avif": "d7c4b7e2d1beead8c6",
-  "src:assets/images/DesktopWallpaper/img-095613.avif": "9dc9fda2c9fba8cbf5",
-  "src:assets/images/DesktopWallpaper/img-095534.avif": "bcbc87b7b395b3b3a1",
-  "src:assets/images/DesktopWallpaper/img-095514.avif": "b5a1aed6bac68d7d8e",
-  "src:assets/images/DesktopWallpaper/img-095440.avif": "c1cdec7b7cc68b82c1",
   "public:assets/images/friends/beihuashansheng.webp": "e8dadcd7d1dad5c2d4",
   "src:content/posts/ddlc/images/image4.jpeg": "8f80814a3b3b453e44",
   "src:content/posts/ddlc/images/image3.jpeg": "0b0b0b0a0a0a0d0d0d",
   "src:content/posts/ddlc/images/image2.jpeg": "cececdede5e5d8cdcb",
-  "src:content/posts/ddlc/images/image1.jpeg": "cab7c6dac1cce3d1dc"
+  "src:content/posts/ddlc/images/image1.jpeg": "cab7c6dac1cce3d1dc",
+  "src:assets/images/DesktopWallpaper/img-144216.avif": "9dc9fea2c8fca5c6f0",
+  "src:assets/images/DesktopWallpaper/img-144123.avif": "bcba87b7b295b0b19f",
+  "src:assets/images/DesktopWallpaper/img-144041.avif": "b49fadd9bbc88e7d8e",
+  "src:assets/images/DesktopWallpaper/img-143955.avif": "c0ceed7b7ac48b81c0"
 }
