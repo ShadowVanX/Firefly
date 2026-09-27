@@ -41,6 +41,10 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			"assets/images/DesktopWallpaper/lumingze.avif",
 			"assets/images/DesktopWallpaper/meiju.avif",
 			"assets/images/DesktopWallpaper/longzu1.avif",
+			"assets/images/DesktopWallpaper/img-095440.avif",
+			"assets/images/DesktopWallpaper/img-095514.avif",
+			"assets/images/DesktopWallpaper/img-095534.avif",
+			"assets/images/DesktopWallpaper/img-095613.avif",
 		],
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
@@ -72,12 +76,12 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"零是开始，也是结束",
+				"这里没有陌路，你不曾孤独",
 				"当飞鸟越过高山、落叶化为尘埃，永恒便过去一秒",
 				"只要你愿意呼喊，总会有千军万马",
 				"带上你的千军万马，即便最后免不了孤军奋战",
 				"孤独是最大的魔鬼",
-				"这里没有陌路，你不曾孤独",
+				"零是开始，也是结束",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
