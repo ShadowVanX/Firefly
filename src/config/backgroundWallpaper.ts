@@ -55,8 +55,8 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 支持单个视频路径（字符串）或多个视频循环（数组，参考上面壁纸配置）
 		// 支持远程视频URL，本地视频请放在 public/assets/videos/ 目录下
 		playerUrl: [
-			"/assets/videos/tsuyogaru-girl.mp4",
-			"/assets/videos/ivorytower.mp4",
+			"/assets/videos/denkou-mad.mp4",
+			"/assets/videos/world-is-mine.mp4",
 			"/assets/videos/kuxia.mp4",
 			"/assets/videos/aonosumika.mp4",
 			"/assets/videos/wochao-op.mp4",
