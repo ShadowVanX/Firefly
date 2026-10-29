@@ -455,8 +455,11 @@ const wallpaperPosition = state.isFullscreenMode
                     var idle = window.requestIdleCallback || function (cb) { return setTimeout(cb, 1500); };
                     idle(function () { materializeAhead(getVisibleSlides(), startIdx); });
                 };
-                if (document.readyState === 'complete') schedulePrefetch();
-                else window.addEventListener('load', schedulePrefetch, { once: true });
+                // 首屏只下当前这一张：第二张延后到首屏稳定后再预取，避免和 LCP 抢带宽
+                var prefetchDelay = Math.min(interval * 0.4, 8000);
+                var delayPrefetch = function () { setTimeout(schedulePrefetch, prefetchDelay); };
+                if (document.readyState === 'complete') delayPrefetch();
+                else window.addEventListener('load', delayPrefetch, { once: true });
             }
 
             // 启动
